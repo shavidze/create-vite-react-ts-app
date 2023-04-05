@@ -1,13 +1,5 @@
 function App() {
-  return (
-    <form>
-      <input
-        className='id'
-        name="name of app"
-        aria-describedby="id descriptorda"
-      />
-    </form>
-  );
+  return <h1>Hello World</h1>;
 }
 
 export default App;
