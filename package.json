@@ -1,6 +1,6 @@
 {
   "name": "@saba/vite-react-ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "bin": {
     "@create-vite-react-ts-app": "./bin/cli.js"
