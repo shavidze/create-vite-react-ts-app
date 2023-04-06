@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "@create-vite-react-ts-app": "./bin/cli.js"
+    "create-vite-react-ts-app": "./bin/cli.js"
   },
   "scripts": {
     "dev": "vite",
