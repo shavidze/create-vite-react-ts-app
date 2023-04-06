@@ -1,10 +1,10 @@
 {
-  "name": "vite-react-ts",
+  "name": "@saba/vite-react-ts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "bin": {
-    "vite-react-ts": "./bin/cli.js"
+    "@create-vite-react-ts-app": "./bin/cli.js"
   },
   "scripts": {
     "dev": "vite",
