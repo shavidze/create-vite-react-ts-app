@@ -11,11 +11,24 @@
     "preview": "vite preview",
     "test": "vitest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shavidze/vite-react-ts-eslint-prettier-vitest.git"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0"
   },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "prettier",
+    "eslint",
+    "vitest",
+    "react-starter"
+  ],
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
