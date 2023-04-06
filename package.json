@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-ts",
+  "name": "@sabashavide/vite-react-ts",
   "version": "1.0.0",
   "type": "module",
   "bin": {
