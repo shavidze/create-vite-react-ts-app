@@ -14,7 +14,7 @@ There are 2 ways to create react app :
       ```
       
       
-  - or If you've previously installed `create-vite-react-ts-app` globally via `npm install --location=global create-vite-react-ts-app`, we recommend you uninstall the package using `npm uninstall --location=global create-vite-react-ts-app` or `yarn global removecreate-vite-react-ts-app` to ensure that npx always uses the latest version.
+  - or If you've previously installed `@sabashavidze/create-vite-react-ts-app` globally via `npm install --location=global @sabashavidze/create-vite-react-ts-app`, we recommend you uninstall the package using `npm uninstall --location=global @sabashavidze/create-vite-react-ts-app` or `yarn global remove @sabashavidze/create-vite-react-ts-app` to ensure that npx always uses the latest version.
   
   
   
