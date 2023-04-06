@@ -1,5 +1,5 @@
 {
-  "name": "@saba/vite-react-ts",
+  "name": "vite-react-ts",
   "version": "1.0.0",
   "type": "module",
   "bin": {
