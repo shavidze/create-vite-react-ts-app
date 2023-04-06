@@ -1,10 +1,8 @@
 {
-  "name": "@sabashavidze/vite-react-ts",
+  "name": "@sabashavidze/create-vite-react-ts-app",
   "version": "1.0.5",
   "type": "module",
-  "bin": {
-    "create-vite-react-ts-app": "./bin/cli.cjs"
-  },
+  "bin": "./bin/cli.cjs",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
