@@ -6,7 +6,7 @@ import { createSpinner } from 'nanospinner';
 
 const error = chalk.bold.red;
 const warning = chalk.hex('#FFA500'); // Orange color
-const neutral = chalk.greenBright;
+const neutral = chalk.yellow;
 const success = chalk.green;
 const executeCommand = (command) => {
   try {
@@ -27,7 +27,7 @@ console.log(success(`Cloning the repository with the name ${repoName}`));
 spinner.start();
 const checkout = executeCommand(gitCheckoutCommand);
 if (!checkout) process.exit(-1);
-spinner.success({ text: success('Project succesfully cloned') });
+spinner.success({ text: success('Project successfully cloned') });
 console.log(warning(`Installing dependencies for ${repoName}`));
 const installedDeps = executeCommand(installDepsCommand);
 spinner.start();
