@@ -8,7 +8,9 @@ const executeCommand = (command) => {
     execSync(`${command}`, { stdio: 'inherit' });
   } catch (e) {
     console.error(`Faild to execute ${command}`, e);
+    return false;
   }
+  return true;
 };
 
 const repoName = process.argv[2];
