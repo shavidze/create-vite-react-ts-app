@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "type": "module",
   "bin": {
-    "create-vite-react-ts-app": "./bin/cli.cjs"
+    "create-vite-react-ts-app": "./bin/cli.js"
   },
   "scripts": {
     "dev": "vite",
@@ -16,6 +16,8 @@
     "url": "git+https://github.com/shavidze/vite-react-ts-eslint-prettier-vitest.git"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
+    "nanospinner": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0"
