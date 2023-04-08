@@ -1,6 +1,6 @@
 {
   "name": "@sabashavidze/create-vite-react-ts-app",
-  "version": "1.0.7",
+  "version": "0.0.0-development",
   "type": "module",
   "bin": {
     "create-vite-react-ts-app": "./bin/cli.js"
@@ -9,11 +9,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shavidze/vite-react-ts-eslint-prettier-vitest.git"
+    "url": "https://github.com/shavidze/vite-react-ts-eslint-prettier-vitest.git"
   },
   "dependencies": {
     "chalk": "^5.2.0",
@@ -39,6 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "@vitejs/plugin-react": "^3.1.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.37.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -50,8 +52,14 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "jsdom": "^21.1.1",
     "prettier": "^2.8.7",
+    "semantic-release": "^21.0.1",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
     "vitest": "^0.29.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
