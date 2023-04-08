@@ -10,7 +10,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --branch main"
   },
   "repository": {
     "type": "git",
