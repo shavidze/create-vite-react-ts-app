@@ -1,6 +1,6 @@
 {
   "name": "@sabashavidze/create-vite-react-ts-app",
-  "version": "0.0.10-development",
+  "version": "0.0.0-development",
   "type": "module",
   "bin": {
     "create-vite-react-ts-app": "./bin/cli.js"
@@ -10,7 +10,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "semantic-release": "semantic-release --branch main"
+    "semantic-release": "semantic-release --branches main"
   },
   "repository": {
     "type": "git",
