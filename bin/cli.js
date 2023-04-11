@@ -52,6 +52,7 @@ const updatePackageJSON = () => {
 const removeFolderrs = () => {
   fs.rmSync(path.join(repoName, '.github'), { recursive: true });
   fs.rmSync(path.join(repoName, 'bin'), { recursive: true });
+  fs.rmSync(path.join(repoName, '.git'), { recursive: true });
 };
 
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/shavidze/create-vite-react-ts-app ${repoName}`;
