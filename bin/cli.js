@@ -49,6 +49,11 @@ const updatePackageJSON = () => {
   );
 };
 
+const removeFolderrs = () => {
+  fs.rmSync(path.join(repoName, '.github'), { recursive: true });
+  fs.rmSync(path.join(repoName, 'bin'), { recursive: true });
+};
+
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/shavidze/create-vite-react-ts-app ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
 
@@ -63,6 +68,7 @@ if (!checkout) process.exit(-1);
 spinner.success({ text: success('Project successfully cloned') });
 
 updatePackageJSON();
+removeFolderrs();
 
 shell.echo(warning(`Installing dependencies for ${repoName}`));
 const installedDeps = executeCommand(installDepsCommand);
@@ -74,5 +80,3 @@ spinner.success({
   ),
 });
 shell.echo(neutral(`cd ${repoName} && npm run dev`));
-fs.rmSync(path.join(repoName, '.github'), { recursive: true });
-fs.rmSync(path.join(repoName, 'bin'), { recursive: true });
