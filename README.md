@@ -1,28 +1,71 @@
-# Create React App with vite/vitest/typescript/eslint/prettier
 
-<img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
+# create-vite-react-ts-app
 
-Create React apps with no build configuration.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Quick Overview
-There are 2 ways to create react app :
-  
-  -  ```sh
-          npx @sabashavidze/create-vite-react-ts-app your-app-name
-          cd your-app-name
-          npm run dev
-      ```
-      
-      
-  - or If you've previously installed `@sabashavidze/create-vite-react-ts-app` globally via `npm install --location=global @sabashavidze/create-vite-react-ts-app`, we recommend you uninstall the package using `npm uninstall --location=global @sabashavidze/create-vite-react-ts-app` or `yarn global remove @sabashavidze/create-vite-react-ts-app` to ensure that npx always uses the latest version.
-  
-  
-  
-  
-  
-Otherwise if you globally installed it, just run :
-    ```
-      npx create-vite-react-ts-app your-app-name
-    ```
+Create a new React TypeScript project with Vite.
+
+## Features
+
+- Sets up a new React project with TypeScript using Vite.
+- Preconfigured with modern development tools and best practices.
+- Ready-to-use setup for fast and efficient development.
+
+## Getting Started
+
+1. Install `create-vite-react-ts-app` globally:
+
+   ```bash
+   npm install -g create-vite-react-ts-app
+   ```
+
+2. Create a new project:
+
+   ```bash
+   create-vite-react-ts-app my-app
+   ```
+
+   This will generate a new project in the `my-app` directory.
+
+3. Navigate to the project directory:
+
+   ```bash
+   cd my-app
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   This will start the development server and open the application in your default browser.
+
+5. Build the project:
+
+   ```bash
+   npm run build
+   ```
+
+   This will create a production-ready build of your application in the `dist` directory.
+
+For more detailed information and available commands, please refer to the [documentation](link-to-documentation).
 
 
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to `create-vite-react-ts-app`, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+If you have any questions or suggestions, please feel free to [open an issue](https://github.com/shavidze/create-vite-react-ts-app/issues). We'd love to hear from you!
+
+Happy coding with `create-vite-react-ts-app`!
+
+```
+
+Please customize and modify the content of this README template to fit your project's specific requirements and provide any additional information that you find necessary.
